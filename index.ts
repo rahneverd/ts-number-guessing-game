@@ -32,6 +32,8 @@ for (let i = 0; i < 3; i++) {
     i = 3
   } else if (i < 2) {
     console.log("Try again")
+  } else if (i === 2) {
+    console.log(`Sorry, You've lost. Random number was ${randomNumber}`)
   }
   
 }
