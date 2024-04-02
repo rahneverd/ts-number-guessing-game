@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 let validationFunc = (input) => !isNaN(parseFloat(input));
-const randomNumber = Math.floor(Math.random() * 90 + 10);
+const randomNumber = Math.floor(Math.random() * 89 + 10);
 let answer;
 async function question() {
     answer = await inquirer.prompt([{

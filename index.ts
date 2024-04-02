@@ -4,7 +4,7 @@ import inquirer from "inquirer";
 
 let validationFunc = (input: any) => !isNaN(parseFloat(input))
 
-const randomNumber: number = Math.floor(Math.random() * 90 + 10)
+const randomNumber: number = Math.floor(Math.random() * 89 + 10)
 let answer: any
 async function question() {
   answer = await inquirer.prompt([{
